@@ -1,0 +1,379 @@
+body {
+  text-align: center;
+  font-family: 'Sonsie One', cursive;
+  background: 222831
+}
+
+.section-heading {
+  padding: 1% 0;
+  color: white;
+  display: inline-block;
+  width: 80%;
+}
+
+/* navbar */
+.nav-item {
+  margin: 0 10%;
+}
+
+.nav-link {
+  width: 200%;
+}
+
+.sound-button {
+  position: fixed;
+  width: 10%;
+  top: 60px;
+  left: 89%;
+}
+
+.off {
+  position: fixed;
+  width: 4%;
+  left: 95%;
+  top: 15%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* heading home */
+#home {
+  background-image: url("images/wallpaper/house1.jpg");
+  background-size: 1550px 900px;
+  background-color: #222831;
+  height: 730px;
+}
+
+.home-button {
+  width: 10%;
+  text-align: center;
+  position: relative;
+  top: 500px;
+  left: 680px;
+}
+
+.heading-home {
+  position: relative;
+  top: 480px;
+  font-size: 3rem;
+  color: black;
+  text-shadow: 3px 3px #ff0000
+}
+
+.explore {
+  color: red;
+  text-decoration: none;
+}
+
+.explore:hover {
+  color: black;
+}
+
+/* location */
+#Location {
+  background-image: url("images/wallpaper/cemetary.jpg");
+  background-size: 1550px 610px;
+  background-repeat: no-repeat;
+  height: 750px;
+  background-color: black;
+}
+
+.mapouter {
+  position: relative;
+  padding: 3% 30% 2%;
+}
+
+.gmap_canvas {
+  margin-left: 30%;
+  border-radius: 5%;
+}
+
+.location-p {
+  color: white;
+  padding: 2% 0% 1%;
+}
+
+.location-button {
+  position: relative;
+  bottom: 2%;
+}
+
+/* services */
+#services {
+  background-color: #222831;
+  padding: 1% 10%;
+  height: 760px;
+  background-image: url("images/wallpaper/2.jpg");
+  background-size: 1520px 770px;
+}
+
+.beds {
+  height: 550px;
+}
+
+.food {
+  height: 550px;
+}
+
+.carousel-caption {
+  background-color: #222831;
+  height: 50px;
+  position: absolute;
+  bottom: 500px;
+}
+
+.services-button {
+  position: relative;
+  top: 12px;
+}
+
+.carousel {
+  width: 1040px;
+  height: 550px;
+  position: relative;
+  left: 80px;
+}
+
+h5 {
+  position: relative;
+  bottom: 8px;
+}
+
+.carousel-inner {
+  border-radius: 10%;
+}
+
+.carousel-icon {
+  background-color: black;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+
+/* Pricing */
+/* my css of price cards */
+#Pricing {
+  background-color: #222831;
+  padding: 2% 10%;
+  height: 750px;
+  background-image: url("images/wallpaper/9.jpg");
+  background-size: 1520px 870px;
+}
+
+.pricing-button {
+  position: relative;
+  bottom: 120px;
+}
+
+.black-pricing {
+  background-color: black;
+}
+
+.dark-pricing {
+  background-color: #222831;
+}
+
+.white-pricing {
+  background-color: white;
+  color: black;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.db-bk-color-one {
+  background-color: #222831;
+}
+
+.db-bk-color-two {
+  background-color: red;
+}
+
+.db-bk-color-three {
+  background-color: #FEFBF3;
+}
+
+.pricing-footer {
+  padding-bottom: 10px;
+}
+
+/*============================================================
+PRICING STYLES
+==========================================================*/
+.db-padding-btm {
+  padding-bottom: 50px;
+}
+
+.db-button-color-square {
+  color: #fff;
+  background-color: black;
+  border: 2px solid gold;
+  border-radius: 0px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 10px;
+}
+
+.db-button-color-square:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.50);
+  border: 2px solid gold;
+}
+
+.db-pricing-eleven {
+  margin-bottom: 30px;
+  margin-top: 50px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  color: #fff;
+  line-height: 30px;
+}
+
+.db-pricing-eleven ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.db-pricing-eleven ul li {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.db-pricing-eleven ul li i {
+  margin-right: 5px;
+}
+
+.db-pricing-eleven .price {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px 20px 20px 20px;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.db-pricing-eleven .price small {
+  color: #B8B8B8;
+  display: block;
+  font-size: 12px;
+  margin-top: 22px;
+}
+
+.db-pricing-eleven .type {
+  padding: 50px 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.db-pricing-eleven .pricing-footer {
+  padding: 20px;
+}
+
+.db-attached>.col-lg-4,
+.db-attached>.col-lg-3,
+.db-attached>.col-md-4,
+.db-attached>.col-md-3,
+.db-attached>.col-sm-4,
+.db-attached>.col-sm-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.db-pricing-eleven.popular {
+  margin-top: 10px;
+}
+
+.db-pricing-eleven.popular .price {
+  padding-top: 50px;
+}
+
+/* contact us */
+#contact {
+  background-color: #222831;
+  padding: 0% 6%;
+  height: 760px;
+  background-image: url("images/wallpaper/10.jpg");
+  background-size: 1520px 770px;
+}
+
+.contact-div1 {
+  background: #222831;
+  margin-bottom: 12%;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+}
+
+.contact-div2 {
+  background: #222831;
+  text-align: center;
+  margin-bottom: 12%;
+  margin-left: 60%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+}
+
+.phone {
+  padding: 10% 5%;
+  font-size: 10rem;
+}
+
+.phone:hover {
+  background-color: #9B0000;
+  border-radius: 50%;
+}
+
+.hover-icon:hover {
+  background-color: black;
+}
+
+.bye-button {
+  position: relative;
+  bottom: 13%
+}
+
+/* goog bye */
+#bye {
+  background-color: #222831;
+  padding: 6% 10%;
+  height: 730px;
+  background-image: url("images/wallpaper/11.jpg");
+  background-size: 1520px 800px;
+}
+
+.bye {
+  color: white;
+  line-height: 2;
+  width: 1200px;
+  text-shadow: 5px solid red;
+}
+
+.eye1 {
+  background-color: red;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  position: relative;
+  top: 26.9%;
+  left: 53.5%;
+  display: none;
+}
+
+.eye2 {
+  background-color: red;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  position: relative;
+  top: 25.7%;
+  left: 51.8%;
+  display: none;
+}
+
+.flash-red {
+  background-color: red;
+  opacity: 0.8;
+}
